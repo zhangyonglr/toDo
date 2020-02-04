@@ -1,0 +1,97 @@
+@import url(reset.css);
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+}
+
+#wrapper{
+	
+	margin: 0 auto;
+}
+header .titulo {
+	padding: 10px;
+	background:black;
+	color: white;
+	text-align: center;
+	border: 4px solid white;
+
+}
+header .nuevatarea{
+    background-color:grey;
+    color: white;
+    padding: 20px 0;
+}
+
+header .filter{
+	background-color: grey;
+	padding: 20px;
+}
+
+main .tareas article{
+	height: 60px;
+	position: relative;
+	border-bottom: 2px solid black;
+	padding: 20px 0px 20px 20px;
+}
+
+main .tareas .urgente{
+	background-color: tomato;
+}
+main .tareas .diaria{
+	background-color: lightblue;
+}
+main .tareas .semanal{
+	background-color: lightgreen;
+}
+main .tareas .mensual{
+	background-color: lightpink;
+}
+main .tareas .anual{
+	background-color: lightsalmon;
+}
+main .tareas article>a{
+	background-color: black;
+	display: inline-block;
+	padding: 21px;
+	color: white;
+	text-decoration: none;
+	width: 100px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	transition: 1s;
+}
+
+main .tareas article>a:hover{
+	width: 125px;
+}
+
+footer{
+	padding: 10px;
+	color: black;
+}
+
+#mensaje{
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+
+#notareas article{
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

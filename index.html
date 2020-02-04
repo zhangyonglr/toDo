@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>TODO's list</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/java.js"></script>
+</head>
+
+<body>
+
+	<div id="wrapper">
+
+		<header>
+			<div class="titulo">ToDo</div>
+
+			<div id="nuevatarea">
+				<form id="form" action="#" method="get">
+					<input type="text" id="tituloTarea" placeholder="Nueva tarea">
+
+					<select id="prioridad" required>
+						<option value="">Selecciona una prioridad</option>
+						<option value="urgente">Urgente</option>
+						<option value="diaria">Diaria</option>
+						<option value="semanal">Semanal</option>
+						<option value="mensual">Mensual</option>
+						<option value="anual">Anual</option>
+					</select>
+
+					<div id="botonGuardar" type="submit" value="Guardar"></div>
+				</form>
+			</div>
+			<div>
+				<p id="mensaje"></p>
+			</div>
+			<div class="filter">
+				<select id="prioridadSelect">
+					<option value="">Todas las tareas</option>
+					<option value="urgente">Urgente</option>
+					<option value="diaria">Diaria</option>
+					<option value="semanal">Semanal</option>
+					<option value="mensual">Mensual</option>
+					<option value="anual">Anual</option>
+				</select>
+
+				<input type="text" placerholder="Tarea a buscar" id="search">
+			</div>
+		</header>
+
+		<main>
+			</section>
+			<section class="tareas" id="tareas">
+
+				<!--este contenido hay que comentarlo cuando empeceis a desarrollar el listado de tareas-->
+
+			</section>
+		</main>
+
+		<footer>
+			<p>ToDoLisT</p>
+		</footer>
+
+
+	</div>
+
+
+</body>
+
+</html>
